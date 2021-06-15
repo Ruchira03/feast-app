@@ -1,0 +1,97 @@
+.signupcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50em;
+  margin: 0%;
+  padding: 0%;
+}
+.upside {
+  flex: 1;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+image {
+  background-color: #fff;
+
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.logo-left {
+  width: 120%;
+  height: 100%;
+}
+.signup-form {
+  flex: 4;
+  margin-top: 1.5em;
+  padding-right: 15em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.empty {
+  flex: 4;
+  margin-right: 35em;
+}
+
+.imgholder {
+  flex: 1;
+  width: 110%;
+  height: 90%;
+}
+.downside {
+  flex: 1;
+}
+
+.emailtext {
+  font-size: 1em;
+  width: 20em;
+  margin-top: 1em;
+  padding-top: 1.5em;
+  border-radius: 40%;
+  text-align: center;
+  box-shadow: blanchedalmond;
+  color: #9a0508;
+}
+.passwordtext {
+  font-size: 1em;
+  margin-top: 25px;
+  width: 20em;
+  padding-top: 1em;
+  border-radius: 40%;
+  text-align: center;
+}
+button {
+  width: 25em;
+  height: 3em;
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 1em 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: hsl(71, 93%, 58%);
+  text-align: center;
+  transition: all 0.2s;
+}
+.signupbtn {
+  background-color: #9a0508;
+}
+.loginbtn {
+  background-color: #fd8909;
+}
+.googlesigninbtn {
+  width: 15em;
+  background-color: #fff;
+  color: black;
+}
+.imagestrip {
+  margin-top: 12em;
+  height: 20em;
+
+  padding: 1em;
+}

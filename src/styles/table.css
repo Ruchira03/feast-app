@@ -1,0 +1,17 @@
+.tabledu {
+  display: flex;
+  flex-direction: column;
+}
+th {
+  width: 200px;
+}
+.editbtn {
+  width: 200px;
+  background-color: hsl(71, 93%, 58%);
+}
+.navbtn {
+  width: 150px;
+}
+.shatab {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
